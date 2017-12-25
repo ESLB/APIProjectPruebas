@@ -1,9 +1,6 @@
 package strauss.levano.eduardo.apiproject;
 
-/**
- * Created by EduardoSebastian on 19/12/2017.
- */
-
+//Modelo del Objeto que vamos a llamar del REST-API, como cualquier otro
 public class GitHubRepo {
 
     private String name;

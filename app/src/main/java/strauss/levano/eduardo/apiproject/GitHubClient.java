@@ -6,15 +6,12 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 
-/**
- * Created by EduardoSebastian on 19/12/2017.
- */
+//Interfaz obligatoria para utilizar Retrofit, aquí hay un ejemplo de cómo funciona
 
 public interface GitHubClient {
 
     @GET("/users/{user}/repos")
     Call<List<GitHubRepo>> reposForUser(@Path("user") String user);
-
 
 
 }
